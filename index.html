@@ -53,6 +53,108 @@
             </div>
         </div>
     </div>
+    <div class="border border-0">
+        <div class="bg-white bg-opacity-25 py-5 px-5">
+            <div class="container-md px-5 py-5">
+                <div class="text-center">
+                    <div class="display-3 fw-bold" data-aos="fade-up" data-aos-delay="550">
+                        ABOUT US
+                    </div>
+                    <div class="fw-bold" data-aos="fade-up" data-aos-delay="600">
+                        WE ARE TALANTED DESIGNERS & DEVELOPERS
+                    </div>
+                </div>
+                <div class="splide" id="categories-splide" role="group" aria-label="Categories">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="d-inline-block rounded-circle p-2 p-sm-3  bg-warning">
+                                    &nbsp;&nbsp;<i class="bi bi-cloud-fill text-white fs-1 "></i>&nbsp;&nbsp;
+                                </div>
+                                <div class="my-2 fw-bold fs-5">
+                                    Planning
+                                </div>
+                                <div class="small fw-semibold">
+                                    Blaster is free responsive layout from <span
+                                        class="text-primary opacity-75">templatemo</span>
+                                    <br>
+                                    Credit goes to <span class="text-primary opacity-75">Pixabay</span> for images. You
+                                    can change
+                                    <br>
+                                    you for visiting our website.
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var splide = new Splide('#categories-splide', {
+                            type: 'loop',
+                            perPage: 5,
+                            perMove: 1,
+                            gap: '1.5rem',
+                            // padding: '6rem',
+                            autoplay: true,
+                            interval: 2000,
+                            breakpoints: {
+                                991: {
+                                    perPage: 3,
+                                },
+                                767: {
+                                    perPage: 2,
+                                },
+                                575: {
+                                    perPage: 1,
+                                },
+                            },
+                        });
+                        splide.mount();
+                    });
+                </script>
+                <div class="row row-cols-1 row-cols-md-2" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col text-end">
+                        <img class="w-100" src="img/about-img.png" alt="">
+                    </div>
+                    <div class="mt-4 ">
+                        <div class="col text-start">
+                            <div class="fw-bold pt-5 h5 px-3 px-md-0">
+                                Our Focus
+                            </div>
+                            <div class="pt-2 fw-semibold pb-4 px-3 px-md-0">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis non, quidem
+                                consectetur eaque fugiat placeat alias cum eligendi, sequi expedita voluptate,
+                                cumque
+                                consequatur porro.
+                            </div>
+                            <div class="fw-semibold">
+                                <i class="bi bi-phone me-3 fs-3"></i>
+                                Mobile Apps
+                                <div class="progress rounded-0 my-2 ms-2" role="progressbar" style="height: 10px;">
+                                    <div class="progress-bar bg-warning bg-opacity-50" style="width: 73%;"></div>
+                                </div>
+                            </div>
+                            <div class="fw-semibold">
+                                <i class="bi bi-link me-3  fs-3"></i>
+                                Web Development
+                                <div class="progress rounded-0 my-2 ms-2" role="progressbar" style="height: 10px;">
+                                    <div class="progress-bar bg-warning bg-opacity-50" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="fw-semibold">
+                                <i class="bi bi-cloud-fill me-3 fs-3"></i>
+                                Cloud Computing
+                                <div class="progress rounded-0 my-2 ms-2" role="progressbar" style="height: 10px;">
+                                    <div class="progress-bar bg-warning bg-opacity-50" style="width: 63%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
