@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EGZ</title>
+    <title>BLASTER</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/splide.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/splide.min.js"></script>
@@ -40,7 +41,8 @@
 
     <div class="bg-image py-5" data-aos="fade-up" data-aos-delay="300">
         <div class="container-md text-center my-5 py-5">
-            <div class="progress bg-dark mx-auto mb-2" role="progressbar" style="width: 50px; height: 2px;" data-aos="fade-up" data-aos-delay="350"></div>
+            <div class="progress bg-dark mx-auto mb-2" role="progressbar" style="width: 50px; height: 2px;"
+                data-aos="fade-up" data-aos-delay="350"></div>
             <div class="fw-bold h-5" data-aos="fade-up" data-aos-delay="400">
                 WE ARE a DIGITAL STUDIO
             </div>
@@ -48,7 +50,8 @@
                 from California
             </div>
             <div class="pt-4" data-aos="fade-up" data-aos-delay="500">
-                <button class="btn btn-outline-black border border-3 border-black fw-bold py-2 px-4 rounded-0" type="button">Our Process</button>
+                <button class="btn btn-outline-black border border-3 border-black fw-bold py-2 px-4 rounded-0"
+                    type="button">Our Process</button>
             </div>
         </div>
     </div>
@@ -64,60 +67,89 @@
                         WE ARE TALANTED DESIGNERS & DEVELOPERS
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-md-3 g-3 my-5" data-aos="fade-up" data-aos-delay="600">
-                    <div class="col">
-                        <div class="d-inline-block rounded-circle p-2 p-sm-3  bg-warning">
-                            &nbsp;&nbsp;<i class="bi bi-cloud-fill text-white fs-1 "></i>&nbsp;&nbsp;
-                        </div>
-                        <div class="my-2 fw-bold fs-5">
-                            Planning
-                        </div>
-                        <div class="small fw-semibold">
-                            Blaster is free responsive layout from <span
-                                class="text-primary opacity-75">templatemo</span>
-                            <br>
-                            Credit goes to <span class="text-primary opacity-75">Pixabay</span> for images. You can change
-                            <br>
-                            you for visiting our website.
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-inline-block rounded-circle p-2 p-sm-3  bg-warning">
-                            &nbsp;&nbsp;<i class="bi bi-laptop text-white fs-1 "></i>&nbsp;&nbsp;
-                        </div>
-                        <div class="my-2 fw-bold fs-5">
-                            Developing
-                        </div>
-                        <div class="small fw-semibold">
-                            Example: <code class="text-primary opacity-75">&lt;i class="fa fa-phone"&lt;&lt;/i&gt;</code>
-                            for phone
-                            <br>
-                            icon. <code class="text-primary opacity-75">&lt;i class="fa fa-mobile"&lt;&lt;/i&gt;</code>
-                            for mobile icon.
-                            <br>
-                            Duis auto irure dolor in reprehenderit in volupdate
-                            <br>
-                            velit esse cilium dolore eu fugiat
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-inline-block rounded-circle p-2 p-sm-3  bg-warning">
-                            &nbsp;&nbsp;<i class="bi bi-globe-americas text-white fs-1 "></i>&nbsp;&nbsp;
-                        </div>
-                        <div class="my-2 fw-bold fs-5">
-                            Launching
-                        </div>
-                        <div class="small fw-semibold">
-                            Duis auto irure dolor in reprehenderit in volupdate
-                            <br>
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            <br>
-                            Excepteu sunt in culpa qui officia deserunt mollit
-                            <br>
-                            anim id.
-                        </div>
+                <div class="splide my-5" id="categories-splide" role="group" aria-label="Categories">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="d-inline-block rounded-circle p-2 p-sm-3  bg-warning">
+                                    &nbsp;&nbsp;<i class="bi bi-cloud-fill text-white fs-1 "></i>&nbsp;&nbsp;
+                                </div>
+                                <div class="my-2 fw-bold fs-5">
+                                    Planning
+                                </div>
+                                <div class="small fw-semibold">
+                                    Blaster is free responsive layout from <span
+                                        class="text-primary opacity-75">templatemo</span>
+                                    <br>
+                                    Credit goes to <span class="text-primary opacity-75">Pixabay</span> for images. You
+                                    can change
+                                    <br>
+                                    you for visiting our website.
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="d-inline-block rounded-circle p-2 p-sm-3 bg-warning">
+                                    &nbsp;&nbsp;<i class="bi bi-laptop text-white fs-1 "></i>&nbsp;&nbsp;
+                                </div>
+                                <div class="my-2 fw-bold fs-5">
+                                    Developing
+                                </div>
+                                <div class="small fw-semibold">
+                                    Example: <code
+                                        class="text-primary opacity-75">&lt;i class="fa fa-phone"&lt;&lt;/i&gt;</code>
+                                    for phone
+                                    <br>
+                                    icon. <code
+                                        class="text-primary opacity-75">&lt;i class="fa fa-mobile"&lt;&lt;/i&gt;</code>
+                                    for mobile icon.
+                                    <br>
+                                    Duis auto irure dolor in reprehenderit in volupdate
+                                    <br>
+                                    velit esse cilium dolore eu fugiat
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="d-inline-block rounded-circle p-2 p-sm-3 bg-warning">
+                                    &nbsp;&nbsp;<i class="bi bi-globe-americas text-white fs-1 "></i>&nbsp;&nbsp;
+                                </div>
+                                <div class="my-2 fw-bold fs-5">
+                                    Launching
+                                </div>
+                                <div class="small fw-semibold">
+                                    Duis auto irure dolor in reprehenderit in volupdate
+                                    <br>
+                                    velit esse cillum dolore eu fugiat nulla pariatur.
+                                    <br>
+                                    Excepteu sunt in culpa qui officia deserunt mollit
+                                    <br>
+                                    anim id.
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var splide = new Splide('#categories-splide', {
+                            type: 'loop',
+                            perPage: 3,
+                            perMove: 1,
+                            gap: '1.5rem',
+                            padding: '5rem',
+                            autoplay: true,
+                            interval: 2000,
+                            breakpoints: {
+                                767: {
+                                    perPage: 2,
+                                },
+                                575: {
+                                    perPage: 1,
+                                },
+                            },
+                        });
+                        splide.mount();
+                    });
+                </script>
                 <div class="row row-cols-1 row-cols-md-2" data-aos="fade-up" data-aos-delay="600">
                     <div class="col text-end">
                         <img class="w-100" src="img/about-img.png" alt="">
