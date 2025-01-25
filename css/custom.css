@@ -1,0 +1,19 @@
+.bg-image {
+    background-image: url("../img/home-bg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.bg-image2{
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
